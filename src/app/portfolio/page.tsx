@@ -29,7 +29,7 @@ const RotateScreenMessage = () => (
     <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black z-50 transition-opacity duration-300">
       <p className="text-4xl text-white font-light">Rotate your phone</p>
     </div>
-  );
+);
 
 export default function Home() {
     const [showRotateScreen, setShowRotateScreen] = useState(true);
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="absolute w-full h-full left-0 top-0" suppressHydrationWarning={true}>
       <Masonry className="flex gap-2 bg-black" columnClassName="" breakpointCols={1}>
         {pictures.map((pic, idx) => (
-            <div className="flex flex-col items-center relative">
+            <div key={idx} className="flex flex-col items-center relative"> {/* Przeniesiono 'key' tutaj */}
               <Image
                 src={pic.src}
                 alt="placeholder"
@@ -68,7 +68,7 @@ export default function Home() {
                 unoptimized={true}
                 blurDataURL=""
               />
-              <a key={idx} href={pic.link} className="absolute bottom-2 right-2 z-10">
+              <a href={pic.link} className="absolute bottom-2 right-2 z-10">
                 <h1 className="text-white font-thin mix-blend-difference hover:underline cursor-pointer py-2 px-4 bg-transparent text-2xl text-right">More...</h1>
               </a>
             </div>
