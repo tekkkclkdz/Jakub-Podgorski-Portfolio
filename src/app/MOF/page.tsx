@@ -41,7 +41,7 @@ export default function Home() {
         <h1 className="text-1xl font-bold font-light mb-4">Camera & Edit of BTS</h1>
         <h1 className="text-1xl font-bold font-light mb-4">I had the pleasure of dealing with the presentation of the newspaper from behind the scenes.
 Most of the videos that appeared promoting and summarizing this project came out of my hand. 
-I encourage you to check out our beautiful collective and support this movement, because this is the place for every person in the creative industry who is starting out or knows what, but doesn't know how!</h1>
+I encourage you to check out our beautiful collective and support this movement, because this is the place for every person in the creative industry who is starting out or knows what, but doesnt know how!</h1>
 
         <a href='https://www.instagram.com/for4the20s/' className="hover:underline italic">Link To The Project</a>
       </main>

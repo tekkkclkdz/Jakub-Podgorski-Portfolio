@@ -40,8 +40,8 @@ export default function Home() {
         <h1 className="text-1xl font-bold font-light mb-4">KOSMA KRÓL & KANIA - POLOT</h1>
         <h1 className="text-1xl font-bold font-light mb-4">Edit</h1>
         <h1 className="text-1xl font-bold font-light mb-4">Music Video For Upcoming Artist</h1>
-        <h1 className="text-1xl font-bold font-light mb-4">Nominated "Best HipHop Music Video 2023" By Popkiller</h1>
-        <h1 className="text-1xl font-bold font-light mb-4">Nominated "Best Micro-Budget Music Video 2023" by MVA</h1>
+        <h1 className="text-1xl font-bold font-light mb-4">Nominated for Best HipHop Music Video 2023 By Popkiller</h1>
+        <h1 className="text-1xl font-bold font-light mb-4">Nominated for Best Micro-Budget Music Video 2023 by MVA</h1>
         <a href='https://www.youtube.com/watch?v=XzDVYsoMqzA' className="hover:underline italic">Link To The Project</a>
       </main>
       <div className="absolute inset-0 h-[calc(100svh)] z-0">
